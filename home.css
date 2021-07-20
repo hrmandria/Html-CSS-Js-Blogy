@@ -53,13 +53,14 @@ html{
     position: fixed;
     z-index:999;
     top:0%;
+
 }
 #text{
     color: white;
     font-weight: bold;
 }
 .nav-wrapper{
-     margin-right: 31%;
+     margin-right: 34%;
 }
 .head{
     margin-top: -10%;
@@ -146,7 +147,7 @@ hr{
     width: 25%;
     float: right; 
     margin-right:10%;
-    margin-top: -58%;
+    margin-top: -35%;
     box-sizing: border-box;
     border-radius: 10%;
 }
@@ -187,14 +188,20 @@ h3{
 .lastpage{
     background-color: white;
     background-size: cover;
-    height:1050px;
+    height:1000px;
     width:100%;
+}
+.para{
+    text-align: center;
+    width:90%;
+    padding-left: 11%;
+    margin-top: -10%;
 }
 .paragraph{
     text-align: center;
     width:90%;
     padding-left: 11%;
-    padding-top: 5%;
+    margin-top: 15%;
 }
 .container{
     animation-duration: 3s; /* durée*/
@@ -268,4 +275,16 @@ h3{
     text-align: center;
     width:90%;
     padding-left: 9%;
+}
+.side{
+    margin-right:-100%;
+    display: none;
+}
+@media (max-width:1280px){
+    .side{
+        display: inherit;
+    }
+    #header{
+        display:none;
+    }
 }

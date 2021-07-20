@@ -60,7 +60,7 @@ html{
     font-weight: bold;
 }
 .nav-wrapper{
-     margin-right: 31%;
+     margin-right: 34%;
 }
 .head{
     margin-top: -10%;
@@ -153,8 +153,9 @@ hr{
     padding-right: 60%;
     padding-top: 1%;
 }
-h3{
+.title{
     font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
     color:black;
 }
 .simple{
@@ -360,4 +361,12 @@ table{
     width:80%;
     margin-left: 5%;
     border-width: 0;
+}
+@media (max-width:1280px){
+  .slideshow-container{
+    padding-bottom: 10%;
+  }
+  #header{
+      display:none;
+  }
 }

@@ -60,7 +60,7 @@ html{
     font-weight: bold;
 }
 .nav-wrapper{
-     margin-right: 31%;
+     margin-right: 34%;
 }
 .head{
     margin-top: -10%;
@@ -366,5 +366,13 @@ table{
 }
 p{
   color: black;
+}
+@media (max-width:1280px){
+  .slideshow-container{
+    padding-bottom: 10%;
+  }
+  #header{
+      display:none;
+  }
 }
 
